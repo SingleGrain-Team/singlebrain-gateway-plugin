@@ -1,0 +1,18 @@
+{
+  "name": "singlebrain-gateway",
+  "owner": {
+    "name": "Single Grain",
+    "email": "support@singlebrain.com",
+    "url": "https://gateway.singlebrain.com"
+  },
+  "metadata": {
+    "description": "SingleBrain Gateway plugins"
+  },
+  "plugins": [
+    {
+      "name": "singlebrain-gateway",
+      "source": "./",
+      "description": "One remote MCP connection to the marketing and sales accounts you connect, plus paid data tools billed per call."
+    }
+  ]
+}

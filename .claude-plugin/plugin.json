@@ -1,0 +1,21 @@
+{
+  "name": "singlebrain-gateway",
+  "displayName": "SingleBrain Gateway",
+  "version": "1.0.0",
+  "description": "One remote MCP connection to the marketing and sales accounts you connect, plus paid data tools billed per call.",
+  "author": {
+    "name": "Single Grain",
+    "email": "support@singlebrain.com",
+    "url": "https://gateway.singlebrain.com"
+  },
+  "homepage": "https://gateway.singlebrain.com",
+  "repository": "https://github.com/SingleGrain-Team/singlebrain-gateway-plugin",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "marketing",
+    "analytics",
+    "sales",
+    "oauth"
+  ]
+}

@@ -1,0 +1,12 @@
+# Merge the singlebrain block into the extensions section of
+# ~/.config/goose/config.yaml (macOS/Linux) or
+# %APPDATA%\Block\goose\config\config.yaml (Windows).
+# This is a remote Streamable HTTP server. Do not add a command or args.
+extensions:
+  singlebrain:
+    type: streamable_http
+    name: singlebrain
+    display_name: SingleBrain Gateway
+    enabled: true
+    uri: "https://gateway.singlebrain.com/mcp"
+    timeout: 300

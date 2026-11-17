@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "singlebrain": {
+      "serverUrl": "https://gateway.singlebrain.com/mcp"
+    }
+  }
+}

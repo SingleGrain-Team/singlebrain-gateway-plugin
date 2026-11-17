@@ -1,0 +1,6 @@
+# Add this block to ~/.codex/config.toml.
+# Leave auth at the default (oauth) so Codex can sign in in the browser.
+# For a key instead, see codex.config.apikey.toml.
+
+[mcp_servers.singlebrain]
+url = "https://gateway.singlebrain.com/mcp"

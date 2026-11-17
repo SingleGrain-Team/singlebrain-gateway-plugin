@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "singlebrain": {
+      "type": "streamableHttp",
+      "url": "https://gateway.singlebrain.com/mcp",
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

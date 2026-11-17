@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "singlebrain": {
+      "type": "streamableHttp",
+      "url": "https://gateway.singlebrain.com/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_SINGLEBRAIN_KEY"
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

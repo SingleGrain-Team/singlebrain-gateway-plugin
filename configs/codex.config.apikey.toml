@@ -1,0 +1,7 @@
+# Add this block to ~/.codex/config.toml.
+# Set the environment variable to the key only. Codex sends it as
+# Authorization: Bearer <value>. Replace the variable name if you prefer another.
+
+[mcp_servers.singlebrain]
+url = "https://gateway.singlebrain.com/mcp"
+bearer_token_env_var = "SINGLEBRAIN_API_KEY"

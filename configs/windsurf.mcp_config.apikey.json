@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "singlebrain": {
+      "serverUrl": "https://gateway.singlebrain.com/mcp",
+      "headers": {
+        "Authorization": "Bearer YOUR_SINGLEBRAIN_KEY"
+      }
+    }
+  }
+}
