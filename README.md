@@ -128,6 +128,14 @@ extensions:
     timeout: 300
 ```
 
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/SingleGrain-Team/singlebrain-gateway-plugin
+```
+
+Then run `/mcp auth singlebrain` in Gemini CLI and finish sign-in on the SingleBrain page that opens.
+
 ## Connect with a key
 
 Claude Code, Codex, Cursor, and VS Code can use a key instead. Sign in, create a key in the [dashboard](https://gateway.singlebrain.com/?utm_source=github_plugin&utm_medium=directory&utm_campaign=gw_distribution), and send it on the same address as an `Authorization` header, `Bearer` followed by the key. The key acts as the member who created it. Never put a key in a chat, an email, or a command other people can read.
@@ -198,6 +206,7 @@ It shows a code. Approve it in the browser, and it writes the server into that c
 | --- | --- |
 | `.cursor-plugin/plugin.json`, `mcp.json` | Cursor plugin (Marketplace and cursor.directory) |
 | `.claude-plugin/plugin.json`, `.claude-plugin/marketplace.json`, `.mcp.json` | Claude Code plugin marketplace in this repo |
+| `gemini-extension.json`, `GEMINI.md` | Gemini CLI extension |
 | `llms-install.md` | Agent-oriented Cline install steps |
 | `assets/logo.png` | 512x512 logo |
 | `assets/logo-400x400.png` | 400x400 logo for the Cline marketplace |
