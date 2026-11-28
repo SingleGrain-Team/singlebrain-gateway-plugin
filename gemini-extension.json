@@ -1,12 +1,11 @@
 {
   "name": "singlebrain-gateway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "One key for your own accounts and paid data tools. Connect, call, pay per use; every call logged.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "singlebrain": {
-      "type": "http",
-      "url": "https://gateway.singlebrain.com/mcp"
+      "httpUrl": "https://gateway.singlebrain.com/mcp"
     }
   }
 }
